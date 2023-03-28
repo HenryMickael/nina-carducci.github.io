@@ -90,9 +90,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+ /* #gallery {
+		min-height: 100vh; 
+ } */
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -105,8 +105,23 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+/* test */
+/* .nav-pills .nav-link:hover{
+	color: #fff;
+	background-color: #BEB45A;
+	border-radius:0;
+	
+} */
+/* .nav-link.active.active-tag{
+	color: #fff;
+	background-color: #BEB45A;
+	border-radius:0 
+} */
+/* fin test */
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
+
 }
 .item-column {
 	position: relative;
